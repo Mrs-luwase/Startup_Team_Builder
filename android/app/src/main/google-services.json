@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676891044256",
+    "project_id": "startup-team-builder-2a71b",
+    "storage_bucket": "startup-team-builder-2a71b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676891044256:android:926eba297134d1a53f9cc5",
+        "android_client_info": {
+          "package_name": "rw.ac.auca.startup_team_builder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNh9KRAwubs-UCJ4MACSROTOGX132xwjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
