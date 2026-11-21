@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'repositories/auth_repository.dart';
 import 'screens/auth_gate.dart';
 import 'state/auth_state.dart';
+import 'theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,10 +24,7 @@ class StartupTeamBuilderApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Startup Team Builder',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1B5E3A)),
-        ),
+        theme: buildAppTheme(),
         home: const AuthGate(),
       ),
     );
